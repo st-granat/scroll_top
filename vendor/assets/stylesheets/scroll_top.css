@@ -1,0 +1,16 @@
+#top {
+  display: none;
+  border:2px solid #ccc;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor:pointer;
+  z-index:10;
+  padding:10px;
+}
+
+#top div {
+  background: url("/assets/top.png") no-repeat;
+  width: 32px;
+  height: 32px;
+}
