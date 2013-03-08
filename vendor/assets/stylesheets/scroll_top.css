@@ -1,12 +1,18 @@
 #top {
   display: none;
-  border:2px solid #ccc;
+  border: 2px solid #ccc;
   position: fixed;
   bottom: 10px;
   right: 10px;
-  cursor:pointer;
-  z-index:10;
-  padding:10px;
+  cursor: pointer;
+  z-index: 10;
+  padding: 10px;
+  background: #fff;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
 }
 
 #top div {
