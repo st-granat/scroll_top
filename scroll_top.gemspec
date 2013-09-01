@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "JQuery Scroll Top for Rails 3 App"
   gem.summary       = "summary"
-  gem.homepage      = "https://github.com/vav/scroll_top"
+  gem.homepage      = "https://github.com/st-granat/scroll_top"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
